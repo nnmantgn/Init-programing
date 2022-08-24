@@ -60,7 +60,7 @@ def getWords(number):
     length = len(str(number))
     
     if length>12:
-        return 'This program supports upto 12 digit numbers.'
+        return 'The program supports upto 12 digit.'
     
     count = length // 3 if length % 3 == 0 else length // 3 + 1
     copy = count
